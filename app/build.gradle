@@ -5,7 +5,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "com.pierre.biojoux.project"
+        applicationId "com.group2.project"
         minSdkVersion 24
         targetSdkVersion 24
         versionCode 1

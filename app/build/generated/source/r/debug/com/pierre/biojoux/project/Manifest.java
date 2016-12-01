@@ -9,6 +9,6 @@ package com.pierre.biojoux.project;
 
 public final class Manifest {
     public static final class permission {
-        public static final String C2D_MESSAGE="com.pierre.biojoux.project.permission.C2D_MESSAGE";
+        public static final String C2D_MESSAGE="com.group2.project.permission.C2D_MESSAGE";
     }
 }

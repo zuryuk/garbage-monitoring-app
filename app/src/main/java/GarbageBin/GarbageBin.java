@@ -17,7 +17,6 @@ public class GarbageBin implements Serializable{
         this.status = status;
         this.emptied = emptied;
         this.ip = ip;}
-
     //Getters & setters
     public void setID(int ID) {this.ID = ID;}
     public void setLon(double lat){this.lat = lat;}
@@ -33,7 +32,6 @@ public class GarbageBin implements Serializable{
     public String getEmptied(){return emptied;}
     public String getCoord() { return lat + "," + lon;}
     public String getIp() {return ip;}
-
     //Methods
     public void test()
     {

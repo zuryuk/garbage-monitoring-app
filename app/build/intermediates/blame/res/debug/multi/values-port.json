@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "outputFile": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-port\\values-port.xml",
+                    "file": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-port\\values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

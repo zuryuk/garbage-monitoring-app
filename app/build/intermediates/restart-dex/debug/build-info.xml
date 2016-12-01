@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="59552716087655"
-    token="-8197867583488763918"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="67992502370773"
+    token="-8264263925349632914"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="19052" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3472" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1534" />
+        duration="0" />
 
     <artifact
-        location="D:\Project_latest\Project_latest\Project\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="59552716087655"
+        timestamp="67465569744483"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Project_latest\Project_latest\Project\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="67992502370773"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
