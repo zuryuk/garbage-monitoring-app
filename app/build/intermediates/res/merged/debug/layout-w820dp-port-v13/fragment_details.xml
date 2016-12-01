@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.pierre.biojoux.project.DetailsActivity"
+    android:layout_weight="3">
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/detailsimg"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:contentDescription="@string/full"
+        android:layout_marginBottom="@dimen/cast_libraries_material_featurehighlight_inner_margin" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/square_list_details"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/cast_expanded_controller_margin_between_seek_bar_and_control_buttons">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:layout_weight="0.67"
+            android:id="@+id/ID" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/detailID"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/square_list_details"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/cast_expanded_controller_margin_between_seek_bar_and_control_buttons">
+
+        <TextView
+            android:text="@string/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:layout_weight="0.67"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:text="@string/aarhus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/detailLocation"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/square_list_details"
+        android:layout_marginBottom="@dimen/cast_expanded_controller_margin_between_seek_bar_and_control_buttons">
+
+        <TextView
+            android:text="@string/status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="0.67"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailStatus"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/square_list_details"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/cast_expanded_controller_margin_between_seek_bar_and_control_buttons">
+
+        <TextView android:text="@string/emptied"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:layout_weight="0.67"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailTime"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+     android:layout_width="match_parent"
+        android:layout_gravity="bottom|center"
+        android:layout_height="match_parent">
+
+        <Button
+         android:text="@string/return_string"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnReturn"
+         android:layout_gravity="bottom"
+         android:layout_weight="1"
+         style="@style/Widget.AppCompat.Button" />
+
+        <Button
+            android:text="@string/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEmpty"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            tools:ignore="HardcodedText"
+            style="@style/Widget.AppCompat.Button" />
+
+        <Button
+         android:text="@string/on_the_map"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnGoto"
+         android:layout_weight="1"
+         android:layout_gravity="bottom"
+         style="@style/Widget.AppCompat.Button" />
+ </LinearLayout>
+
+
+</LinearLayout>

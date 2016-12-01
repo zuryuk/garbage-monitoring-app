@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_list.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-land\\fragment_list.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_maps.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-land\\activity_maps.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_login.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-land\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    }
+]

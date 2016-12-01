@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Monitoring Garbage Bins</string>
+    <string name="check_status">Check Status</string>
+    <string name="check_weather">Check Weather</string>
+    <string name="view_map">View on Map</string>
+    <string name="log_out">Log Out</string>
+    <string name="login">Trash Collector Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="quit">QUIT</string>
+    <string name="validate">VALIDATE</string>
+    <string name="back">BACK</string>
+    <string name="current">Current Weather:</string>
+    <string name="status">Status:</string>
+    <string name="list_garbage_bin">List of Garbage Bins:</string>
+    <string name="main_menu">Main Menu:</string>
+    <string name="go_to">Go</string>
+
+    <string name="full">"Full"</string>
+    <string name="empty">Empty</string>
+    <string name="id">ID:</string>
+    <string name="aarhus">Example City</string>
+    <string name="on_the_map">On the Map</string>
+    <string name="return_string">Return</string>
+    <string name="emptied">Emptied:</string>
+    <string name="location">Location:</string>
+
+</resources>

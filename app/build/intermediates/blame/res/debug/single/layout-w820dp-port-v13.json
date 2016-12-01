@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\fragment_details.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\fragment_details.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_main.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_maps.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\activity_maps.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\fragment_status.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\fragment_status.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_login.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_details.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\activity_details.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\fragment_list.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\fragment_list.xml"
+    },
+    {
+        "merged": "D:\\Project_latest\\Project_latest\\Project\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_status.xml",
+        "source": "D:\\Project_latest\\Project_latest\\Project\\app\\src\\main\\res\\layout-w820dp-port\\activity_status.xml"
+    }
+]
