@@ -18,8 +18,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-
+        <action android:name=".ArduinoConnection"/>
             </intent-filter>
+        </activity>
         <activity android:name=".Authenticate" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,6 +35,10 @@
         <activity android:name=".MapsActivity" />
         <activity android:name=".StatusActivity" />
         <activity android:name=".DetailsActivity" />
+        <service
+            android:name="Service.ArduinoConnection"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

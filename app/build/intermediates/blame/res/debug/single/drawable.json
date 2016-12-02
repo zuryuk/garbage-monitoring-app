@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\redgarbage.png",
-        "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\src\\main\\res\\drawable\\redgarbage.png"
-    },
-    {
         "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
         "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\redgarbage.png",
+        "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\src\\main\\res\\drawable\\redgarbage.png"
     },
     {
         "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_play_light.xml"
     },
     {
-        "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
-        "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_cast_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
         "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_cast_light.xml"
     },
     {
         "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",

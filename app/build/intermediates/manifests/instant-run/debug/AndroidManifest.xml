@@ -38,7 +38,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pierre.biojoux.project.MainActivity" />
+        <activity android:name="com.pierre.biojoux.project.MainActivity" >
+            <intent-filter>
+                <action android:name=".ArduinoConnection" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.pierre.biojoux.project.Authenticate" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,6 +58,11 @@
         <activity android:name="com.pierre.biojoux.project.MapsActivity" />
         <activity android:name="com.pierre.biojoux.project.StatusActivity" />
         <activity android:name="com.pierre.biojoux.project.DetailsActivity" />
+
+        <service
+            android:name="Service.ArduinoConnection"
+            android:enabled="true"
+            android:exported="true" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

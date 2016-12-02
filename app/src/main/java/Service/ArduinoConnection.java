@@ -11,6 +11,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+
+import java.text.SimpleDateFormat;
 import GarbageBin.GarbageBin;
 import GarbageBin.GarbageHandler;
 
@@ -18,8 +20,9 @@ public class ArduinoConnection extends Service {
     //Strings
     private static final String ERROR = "ERROR";
     private static final String SUCCESS = "SUCCESS";
+    private String url = "";
     //Service
-    public static final String BROADCAST_BACKGROUND_SERVICE_RESULT = "com.example.zuryuk.get_test.BROADCAST_BACKGROUND_SERVICE_RESULT";
+    public static final String BROADCAST_BACKGROUND_SERVICE_RESULT = "com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT";
     final GarbageHandler db = new GarbageHandler(this);
     //Variables
     RequestQueue queue;
@@ -32,6 +35,7 @@ public class ArduinoConnection extends Service {
 
     @Override
     public void onCreate() {
+        System.out.println("Service started");
         super.onCreate();
     }
     @Override
@@ -97,7 +101,7 @@ public class ArduinoConnection extends Service {
 
     void requestData() {
 
-        String url ="http://home.tamk.fi/~e4jluukk/test.html";
+        url ="http://home.tamk.fi/~e4jluukk/datatest/Sample2.html";
         RequestQueue queue = Volley.newRequestQueue(this);
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -119,7 +123,18 @@ public class ArduinoConnection extends Service {
         for(int i = 0; i < split.length; i++) {
             System.out.println("value " + i + ": " + split[i]);
         }
-        GarbageBin bin =  new GarbageBin(Integer.parseInt(split[0]), Double.parseDouble(split[1]), Double.parseDouble(split[2]), "asd", "asd", "asd");
+        int sensor = Integer.parseInt(split[0]);
+        double lat = Double.parseDouble(split[1]);
+        double lon = Double.parseDouble(split[2]);
+        String status;
+        String emptied;
+
+        emptied = SimpleDateFormat.getDateInstance().toString();
+        if (sensor < 30) { status = "Full"; }
+        else if (sensor < 80 ){ status = "Medium"; }
+        else { status = "Empty";}
+        GarbageBin bin =  new GarbageBin(sensor, lat, lon, status, emptied, url);
+        bin.test();
         db.setBin(bin);
         db.getBin(1).test();
         db.close();

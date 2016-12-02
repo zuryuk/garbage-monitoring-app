@@ -94,9 +94,7 @@ public class SeeDetails extends Fragment {
     }
 
     private void empty(){
-        SimpleDateFormat timeStampFormat = new SimpleDateFormat("dd.MM.yy");
-        Date myDate = new Date();
-        String emptied = timeStampFormat.format(myDate);
+        String emptied = java.text.SimpleDateFormat.getDateInstance().toString();
         EmptiedView.setText(emptied);
         Bin.setEmptied(emptied);
     }

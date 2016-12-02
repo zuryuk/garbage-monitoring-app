@@ -1,7 +1,0 @@
-#Thu Dec 01 11:38:26 CET 2016
-base.0=C\:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_209f722d08709e14c5862262aaaa38d567798083
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2e0838fc2f787fbf23cfcb9754d5b12b1d1bcca5\\classes.dex
-base.1=C\:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2e0838fc2f787fbf23cfcb9754d5b12b1d1bcca5
-file.0=C\:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_209f722d08709e14c5862262aaaa38d567798083\\classes.dex

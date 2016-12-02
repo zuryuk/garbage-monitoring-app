@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="5770912827921"
+    token="-8264263925349632914"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1624" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="846" />
+    <task
+        name="verifier"
+        duration="182" />
+
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_6ac169e7e4db69f748abe22c755879e9323d0e70\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_714757ff63dc400bf9174dfa9eec61c1ced2369d\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.6.1_ed49c9ae373cddbb8c7f94604eca8c3c900dc1ca\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.6.1_d3f2c73caeb2c6d7b382a6f6faae2619a994f6c5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_fe59b4111ac5ee09986eb973d49efa1d78f82da0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.1_4364b9ef37ee40f1037fb089c41c6b977187daab\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.6.1_4bab41909a8071652c1a0f7f034bb92e8b22559a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.6.1_101fdcd57f0259776c0c2bc3d15ec688983d5263\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_2b4f6dc2a85bff1fae348eb33dbba310889fd46d\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.6.1_fce69223cae5255ee35377a21ae87e36d6182509\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.6.1_a6d96bd054b0b394c41fdb82488e7da393432d9e\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_209f722d08709e14c5862262aaaa38d567798083\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_b933512e14fe83943a85a27c1d6b33ae34a29d94\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_b909e26feeeb41bebc828390d33647f586c17297\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.1_df71dd110a85199258a702069538a631d84fcac7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.6.1_34a8efd7693f4ac8717ed8326297f7e5c0e0f6cc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_472cf289808a03bf7ec4fa6aa9859ecf6018a6bd\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_685cff4fff57bc9d1f4bd0e96efde403f1835008\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_608cbbed3d91d33611f52a8dc9c871d53451c9af\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.6.1_24fcb21c213ca327a67122a8a7f2b1c778a8f00d\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.6.1_c634fd4dfa8421e6c03bbcd15f7c44b2381d2cf6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_df95d1c256cae8c07d9e487ee681b1c92d7d9892\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_f079b3e3de4d005f2810836134706216181ce8f2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.6.1_2accbf5f51632fbf0dc593175bd3ccf3ae32b31f\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_37c918c3cc5499aa2e8917f3c143d7445e7fba4c\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.1_001acd6cd50d7f15eda9a895ec8693bbc8c93a84\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_5189148ff5c8b118c4fd51683a08e3f40fa024da\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_d94bec980304fd35f2cbc6479ce5756bb8d759d8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.6.1_03e6d99865e71d916a01d0bfb2e2114fe9f95461\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_b8e508a39fc7a71fb099c7aa986165148cb31fce\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_322f8c90a2034bcee680576beea0317efaececa4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_25a3dcdf94cf718c86b4bc70be4689ac0f29440b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.6.1_253866d4209b211c6bd3e320e9bf1eecbd0c9898\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.6.1_73e0f528c9d80cd7a693d5c019295a99c9c8869b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.6.1_a3f8ee2a5c93b4a10a880ab2d72102bf97bfe62f\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.6.1_4095b42c6f187fc2b11a23a30aea407c531c7188\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.6.1_3d595505ed8296df611df9dcb10057dba4940add\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.6.1_9212326fe6ec252fd0c03013207f32541179d81b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-9.6.1_a27609788d35eb0d0173c84cbb56ca1850f13d1a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.6.1_8b8ad62bbc5e4193de22ebd1f51624fb7e7e5e98\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.6.1_e1d8bd7d987dbbf9a6dba691a95b5f23ce301a02\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_7266359208c3709aa09c609f500c0934097933cc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.6.1_313d272e6e381b120b44a94f92a8006869fe8299\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_4516233c6110a44a17b645a12c73d61bd9394d8c\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.6.1_8507e2b56e66fb0be8265fda3f049fe16002533f\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_59826d0a6a03e57ee5eb6e26493c9e4c6b10faca\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.6.1_a0f871d03aeee1f4526152a19e1d8d1d0dfcca16\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.6.1_ba2f9c98a4ffa601b84b01af6b320d6b9e49b7fe\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_912af6fa06f82028d9eeb237ded734853bae5dcc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_746900610935f25770dea11e16cc75473cfb00de\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.6.1_14ede67cc9b0d278cc6cb6f8b061b96b8c098a3e\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.6.1_a6ff6ee6f9a555f3ea54249f9d86156eadebb81a\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_8c405ee4f5364b61f483cd4b0f997b052a150b42\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_43d5d1bc88a3c3e471680489dc7323374a109248\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.6.1_e42e9b7e737685f21dd54d3017db4a1eec3e91e7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.6.1_ee84e4d2a95f96c225772f82ecc58a3fdcd89d78\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.6.1_79ac125762dedb6bc59f3c607ee514522b86c2b7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.6.1_d5ca2dfb25bf66053737a61af7babfe8b9f6d1b6\classes.dex"
+        type="DEX" />
+
+</instant-run>

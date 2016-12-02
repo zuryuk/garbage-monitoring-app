@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_42c98432e24ef551e6da51bf05bf01c74433a395\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,30 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7832becf67664a52a7a9066e055c113b2593ea12">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2e0838fc2f787fbf23cfcb9754d5b12b1d1bcca5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.1_001acd6cd50d7f15eda9a895ec8693bbc8c93a84\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.6.1_65dd7ca0551c071f18484f173e3be26c1287f7f6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,15 +66,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.6.1_7647f30547edfcab09b59d12a2c74f6b582021ef\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -120,24 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_dbfaed232d81799f357422bc5a45eb153e34120c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_bb19a949cf1639b7f5a312a7426115a6cfe423f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -153,15 +99,6 @@
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_714757ff63dc400bf9174dfa9eec61c1ced2369d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.6.1_7be1c700a94dfbe7a695894c29981e7b61b1b52d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -300,15 +237,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ac8365c87591065db07f7bac8551504504832cd4">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_5a014fdccfd7882647d795a9aab4cb18efaff6a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -333,15 +261,6 @@
         revision="24.0.2"
         sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.6.1_73e0f528c9d80cd7a693d5c019295a99c9c8869b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_e818545af38f23048132968047008554e9c4a830\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -376,7 +295,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0f5a06a9c78d61baaa3979fdd7de597d300adcb0">
+        sha1="6ed6750ac5b1f464fde467ec2cd58baf02cfd04d">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_209f722d08709e14c5862262aaaa38d567798083\classes.dex" />
     </item>
     <item
@@ -396,15 +315,6 @@
         revision="24.0.2"
         sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_d94bec980304fd35f2cbc6479ce5756bb8d759d8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a76a6983a23788b3689524d4bed763955afbd306">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.6.1_9c38a811b259b9e92182d231b853441fa260cf88\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -552,30 +462,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.6.1_72f70959032f4b4bf6a73d681d3f56d447fbcadd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.6.1_8b8ad62bbc5e4193de22ebd1f51624fb7e7e5e98\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.6.1_a19e194d443892bd06fe91c2eaf3f76ae0d6e3d3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -594,15 +486,6 @@
         revision="24.0.2"
         sha1="a136366045678579300d161de97c2211c4c4f7a0">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.6.1_313d272e6e381b120b44a94f92a8006869fe8299\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.6.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
-        <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.6.1_dc6b307a51c2b71ad3a26dfbe1686115ed83f494\classes.dex" />
     </item>
     <item
         is-multidex="true"
