@@ -10,7 +10,7 @@ import android.widget.Button;
 import java.util.ArrayList;
 
 import GarbageBin.GarbageBin;
-import Service.ArduinoConnection;
+import service.ArduinoConnection;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         IntentFilter filter = new IntentFilter();
         filter.addAction("com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT");
         Intent intent = new Intent(this, ArduinoConnection.class);
-        System.out.println("AACH");
+        binList.get(1).getCoord();
         startService(intent);
         buttonCheckStatus = (Button) findViewById(R.id.buttonCheckStatus);
         buttonCheckStatus.setOnClickListener(new View.OnClickListener(){
@@ -73,8 +73,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private ArrayList<GarbageBin> testData(){
+        //5610.581771,01012.222001
         GarbageBin B1 = new GarbageBin(1, 37.414, -122.1, "Full", "1.12.2016", "192.168.0.100");
-        GarbageBin B2 = new GarbageBin(2, 37.434, -121.1, "Empty", "30.11.2016", "192.168.0.101");
+        GarbageBin B2 = new GarbageBin(2, 5610.581771, 01012.222001, "Empty", "30.11.2016", "192.168.0.101");
 
         ArrayList<GarbageBin> binList = new ArrayList<GarbageBin>();
         binList.add(B1);

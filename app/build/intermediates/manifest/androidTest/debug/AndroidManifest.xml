@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.group2.project.test" >
+    package="com.pierre.biojoux.project.test" >
 
     <uses-sdk
         android:minSdkVersion="24"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.group2.project"
-        android:targetPackage="com.group2.project" />
+        android:label="Tests for com.pierre.biojoux.project"
+        android:targetPackage="com.pierre.biojoux.project" />
 
     <application>
         <uses-library android:name="android.test.runner" />

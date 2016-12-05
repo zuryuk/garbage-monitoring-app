@@ -35,10 +35,6 @@
         <activity android:name=".MapsActivity" />
         <activity android:name=".StatusActivity" />
         <activity android:name=".DetailsActivity" />
-        <service
-            android:name="Service.ArduinoConnection"
-            android:enabled="true"
-            android:exported="true"></service>
     </application>
 
 </manifest>

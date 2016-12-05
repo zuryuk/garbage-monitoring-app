@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.group2.project"
+    package="com.pierre.biojoux.project"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,10 +22,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.group2.project.permission.C2D_MESSAGE"
+        android:name="com.pierre.biojoux.project.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.group2.project.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.pierre.biojoux.project.permission.C2D_MESSAGE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -58,11 +58,6 @@
         <activity android:name="com.pierre.biojoux.project.MapsActivity" />
         <activity android:name="com.pierre.biojoux.project.StatusActivity" />
         <activity android:name="com.pierre.biojoux.project.DetailsActivity" />
-
-        <service
-            android:name="Service.ArduinoConnection"
-            android:enabled="true"
-            android:exported="true" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -117,7 +112,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.group2.project" />
+                <category android:name="com.pierre.biojoux.project" />
             </intent-filter>
         </receiver>
         <!--
@@ -141,7 +136,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.group2.project.firebaseinitprovider"
+            android:authorities="com.pierre.biojoux.project.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -190,7 +185,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.com.group2.project" />
+                <data android:scheme="tagmanager.c.com.pierre.biojoux.project" />
 
                 <action android:name="android.intent.action.VIEW" />
 

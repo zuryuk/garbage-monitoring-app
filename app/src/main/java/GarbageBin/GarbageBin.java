@@ -2,6 +2,8 @@ package GarbageBin;
 
 import java.io.Serializable;
 
+import static java.lang.String.valueOf;
+
 public class GarbageBin implements Serializable{
     private int ID;
     private double lat;
@@ -30,11 +32,48 @@ public class GarbageBin implements Serializable{
     public double getLon(){return lon;}
     public String getStatus(){return status;}
     public String getEmptied(){return emptied;}
-    public String getCoord() { return lat + "," + lon;}
+    public String getCoord() { parseLat(lat);
+        parseLon(lon);
+        return lat + "," + lon;}
     public String getIp() {return ip;}
     //Methods
     public void test()
     {
         System.out.println(this.status);
+    }
+
+    private double parseLat(double lat){
+        double parsedlat = 0;
+        String latString = Double.toString(lat).replace(".", "");
+        String str = latString;
+        str = new StringBuilder(str).insert(2, "-").toString();
+        String[] split = str.split("-");
+        int x = Integer.parseInt(split[1])/60;
+        split[1] = Double.toString(x);
+        str = split[0];
+        System.out.println(str);
+        str = split[1];
+        split[1] = str.replace(".", "");
+        System.out.println(str);
+        str = split[0] + "." + split[1];
+        System.out.println(str);
+        return parsedlat;
+    }
+    private double parseLon(double lon){
+        double parsedlat = 0;
+        String lonString = Double.toString(lon).replace(".", "");
+        String str = lonString;
+        str = new StringBuilder(str).insert(3, "-").toString();
+        String[] split = str.split("-");
+        int x = Integer.parseInt(split[1])/60;
+        split[1] = Double.toString(x);
+        str = split[0];
+        System.out.println(str);
+        str = split[1];
+        split[1] = str.replace(".", "");
+        System.out.println(str);
+        str = split[0] + "." + split[1];
+        System.out.println(str);
+        return parsedlat;
     }
 }
