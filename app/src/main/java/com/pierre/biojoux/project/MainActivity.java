@@ -27,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         IntentFilter filter = new IntentFilter();
         filter.addAction("com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT");
         Intent intent = new Intent(this, ArduinoConnection.class);
-        binList.get(1).getCoord();
         startService(intent);
+
+        binList.get(1).getCoord();
         buttonCheckStatus = (Button) findViewById(R.id.buttonCheckStatus);
         buttonCheckStatus.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -74,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<GarbageBin> testData(){
         //5610.581771,01012.222001
-        GarbageBin B1 = new GarbageBin(1, 3741.414, 12223.14121, "Full", "1.12.2016", "192.168.0.100");
+        GarbageBin B1 = new GarbageBin(1, 3741.414, 1223.14121, "Full", "1.12.2016", "192.168.0.100");
         GarbageBin B2 = new GarbageBin(2, 5610.581771, 01012.222001, "Empty", "30.11.2016", "192.168.0.101");
 
         ArrayList<GarbageBin> binList = new ArrayList<GarbageBin>();

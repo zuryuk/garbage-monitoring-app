@@ -5,64 +5,57 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="8521714711801"
+    timestamp="63609159450963"
     token="-8264263925349632914"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="498" />
+        duration="597" />
     <task
         name="instant-run-dex"
-        duration="840" />
+        duration="683" />
     <task
         name="instant-run-transform"
-        duration="171" />
+        duration="67" />
     <task
         name="verifier"
-        duration="2" />
+        duration="3" />
 
     <artifact
         location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
 
     <build
-        timestamp="6907593104194"
+        timestamp="60709452679933"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="7961119043054"
+        timestamp="63344745547816"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="63458825350288"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="63585886435150"
         verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\builds\debug\7961119043054\classes.dex"
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\builds\debug\63585886435150\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="8231343303599"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\builds\debug\8231343303599\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="8339494127166"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\builds\debug\8339494127166\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="8443917081645"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\builds\debug\8443917081645\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="8521714711801"
+        timestamp="63609159450963"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\reload-dex\debug\classes.dex"

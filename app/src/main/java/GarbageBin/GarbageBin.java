@@ -11,7 +11,7 @@ public class GarbageBin implements Serializable{
     private String ip;
     private String status;
     private String emptied;
-
+    GarbageHandler db;
     public GarbageBin(int ID, double lat, double lon, String status, String emptied, String ip){
         this.ID = ID;
         this.lat = parseLat(lat);
@@ -57,7 +57,7 @@ public class GarbageBin implements Serializable{
     private double parseLon(double lon){
         double parsedlon;
         String str = Double.toString(lon).replace(".", "");
-        str = new StringBuilder(str).insert(3, "-").toString();
+        str = new StringBuilder(str).insert(2, "-").toString();
         String[] split = str.split("-");
         int x = Integer.parseInt(split[1])/60;
         split[1] = String.valueOf(x);

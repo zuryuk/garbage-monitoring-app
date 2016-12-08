@@ -124,19 +124,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
         mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
 
-        //Initialize Google Play Services
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (ContextCompat.checkSelfPermission(this,
-                    android.Manifest.permission.ACCESS_FINE_LOCATION)
-                    == PackageManager.PERMISSION_GRANTED) {
-                buildGoogleApiClient();
-                mMap.setMyLocationEnabled(true);
-            }
-        }
-        else {
-            buildGoogleApiClient();
-            mMap.setMyLocationEnabled(true);
-        }
+        setMarkers(mMap);
+        LatLng myLoc = new LatLng(56.17, 10.12);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(myLoc));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(12));
     }
 
     private synchronized void buildGoogleApiClient() {
@@ -178,59 +169,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mLastLocation = location;
 
-        //Place markers of garbage bins
-        if(doIt.equals("ManyGarbageBins")){
-            for (int i = 0; i < binList.size(); i++) {
-                latLngGarbageBin = new LatLng(binList.get(i).getLat(), binList.get(i).getLon());
-                if (binList.get(i).getStatus().equals("Full")) {
-                    mMap.addMarker(new MarkerOptions()
-                            .position(latLngGarbageBin)
-                            .title("Garbage Bin:" + binList.get(i).getID())
-                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.redgarbage))
-                    );}
-                else if (binList.get(i).getStatus().equals("Medium")) {
-                    mMap.addMarker(new MarkerOptions()
-                            .position(latLngGarbageBin)
-                            .title("Garbage Bin:" + binList.get(i).getID())
-                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.yellowgarbage))
-                    );
-                }
-                else{
-                    mMap.addMarker(new MarkerOptions()
-                            .position(latLngGarbageBin)
-                            .title("Garbage Bin:" + binList.get(i).getID())
-                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.greengarbage))
-                    );
-                }
-            }
-
-        }
-
-
-        //Place marker of the garbage bin chosen
-        if(doIt.equals("OneGarbageBin")){
-            latLngGarbageBin = new LatLng(Bin.getLat(), Bin.getLon());
-            if (Bin.getStatus().equals("Full")) {
-                mMap.addMarker(new MarkerOptions()
-                        .position(latLngGarbageBin)
-                        .title("Garbage Bin:" + Bin.getID())
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.redgarbage))
-                );}
-            else if (Bin.getStatus().equals("Medium")) {
-                mMap.addMarker(new MarkerOptions()
-                        .position(latLngGarbageBin)
-                        .title("Garbage Bin:" + Bin.getID())
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.yellowgarbage))
-                );
-            }
-            else{
-                mMap.addMarker(new MarkerOptions()
-                        .position(latLngGarbageBin)
-                        .title("Garbage Bin:" + Bin.getID())
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.greengarbage))
-                );
-            }
-        }
 
         //Get the current location
         longitude = location.getLongitude();
@@ -255,8 +193,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onInfoWindowClick(Marker marker) {
                 Intent intent = new Intent(MapsActivity.this, DetailsActivity.class);
                 String IdMarker = marker.getId();
-                String IdDBin= IdMarker.replaceAll("[^0-9]", "");
-                intent.putExtra("IdBin", IdDBin);
+                System.out.println(IdMarker);
                 startActivity(intent);
             }
         });
@@ -372,6 +309,61 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 polylineOptions.add(route.points.get(i));
 
             polylinePaths.add(mMap.addPolyline(polylineOptions));
+        }
+    }
+    public void setMarkers(GoogleMap mMap){
+        //Place markers of garbage bins
+        if(doIt.equals("ManyGarbageBins")){
+            for (int i = 0; i < binList.size(); i++) {
+                latLngGarbageBin = new LatLng(binList.get(i).getLat(), binList.get(i).getLon());
+                if (binList.get(i).getStatus().equals("Full")) {
+                    mMap.addMarker(new MarkerOptions()
+                            .position(latLngGarbageBin)
+                            .title("Garbage Bin:" + binList.get(i).getID())
+                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.redgarbage))
+                    );}
+                else if (binList.get(i).getStatus().equals("Medium")) {
+                    mMap.addMarker(new MarkerOptions()
+                            .position(latLngGarbageBin)
+                            .title("Garbage Bin:" + binList.get(i).getID())
+                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.yellowgarbage))
+                    );
+                }
+                else{
+                    mMap.addMarker(new MarkerOptions()
+                            .position(latLngGarbageBin)
+                            .title("Garbage Bin:" + binList.get(i).getID())
+                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.greengarbage))
+                    );
+                }
+            }
+
+        }
+
+
+        //Place marker of the garbage bin chosen
+        if(doIt.equals("OneGarbageBin")){
+            latLngGarbageBin = new LatLng(Bin.getLat(), Bin.getLon());
+            if (Bin.getStatus().equals("Full")) {
+                mMap.addMarker(new MarkerOptions()
+                        .position(latLngGarbageBin)
+                        .title("Garbage Bin:" + Bin.getID())
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.redgarbage))
+                );}
+            else if (Bin.getStatus().equals("Medium")) {
+                mMap.addMarker(new MarkerOptions()
+                        .position(latLngGarbageBin)
+                        .title("Garbage Bin:" + Bin.getID())
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.yellowgarbage))
+                );
+            }
+            else{
+                mMap.addMarker(new MarkerOptions()
+                        .position(latLngGarbageBin)
+                        .title("Garbage Bin:" + Bin.getID())
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.greengarbage))
+                );
+            }
         }
     }
 }

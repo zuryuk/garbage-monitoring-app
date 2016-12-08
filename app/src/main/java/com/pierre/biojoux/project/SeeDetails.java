@@ -2,6 +2,7 @@ package com.pierre.biojoux.project;
 
 
 import android.content.Intent;
+import android.icu.text.DateFormat;
 import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -31,6 +32,7 @@ public class SeeDetails extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_details, container, false);
         Bin = (GarbageBin) getActivity().getIntent().getExtras().getSerializable("Bin");
+        System.out.println(Bin.getCoord());
         ImageView statusImg = (ImageView) v.findViewById(R.id.detailsimg);
         String status = Bin.getStatus();
 
@@ -94,7 +96,10 @@ public class SeeDetails extends Fragment {
     }
 
     private void empty(){
-        String emptied = java.text.SimpleDateFormat.getDateInstance().toString();
+        DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+        Date date = new Date();
+        String emptied = dateFormat.format(date);
+        System.out.println(dateFormat.format(date));
         EmptiedView.setText(emptied);
         Bin.setEmptied(emptied);
     }
