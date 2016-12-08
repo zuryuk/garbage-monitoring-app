@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Binder;
 import android.os.IBinder;
+
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -12,7 +14,13 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
+
 import GarbageBin.GarbageBin;
 import GarbageBin.GarbageHandler;
 
@@ -20,15 +28,16 @@ public class ArduinoConnection extends Service {
     //Strings
     private static final String ERROR = "ERROR";
     private static final String SUCCESS = "SUCCESS";
-    private String url = "";
+    private static final String url = "https://api.xively.com/v2/feeds/1819176350";
+    private static final String apikey = "aLWKMwlAcdlPK9TrLytC1sKrZxWguK2sl0dwHybMFrFTGhvl";
     //Service
     public static final String BROADCAST_BACKGROUND_SERVICE_RESULT = "com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT";
     final GarbageHandler db = new GarbageHandler(this);
     //Variables
-    RequestQueue queue;
     private boolean started = false;
     private long wait = 30 * 1000; // 30 mins in ms
     private final IBinder mBinder = new MyBinder();
+    RequestQueue queue = null;
 
     public ArduinoConnection() { //Constructor
     }
@@ -99,45 +108,47 @@ public class ArduinoConnection extends Service {
         task.execute();
     }
 
-    void requestData() {
 
-        url ="http://home.tamk.fi/~e4jluukk/datatest/Sample2.html";
-        RequestQueue queue = Volley.newRequestQueue(this);
+    void requestData() {
+        if (queue == null)
+            queue = Volley.newRequestQueue(this);
+
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
-                        public void onResponse(String response) {
+                    public void onResponse(String response) {
                         parse(response);
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                System.out.println(error);
+                error.printStackTrace();
             }
-        });
+        }) {
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("X-ApiKey", apikey);
+
+                return params;
+            }};
+
         queue.add(stringRequest);
+
     }
 
-    GarbageBin parse(String text){
-        String[] split = text.split(";");
-        for(int i = 0; i < split.length; i++) {
-            System.out.println("value " + i + ": " + split[i]);
-        }
-        int sensor = Integer.parseInt(split[0]);
-        double lat = Double.parseDouble(split[1]);
-        double lon = Double.parseDouble(split[2]);
-        String status;
-        String emptied;
+    GarbageBin parse(String jsonResponse){
 
-        emptied = SimpleDateFormat.getDateInstance().toString();
-        if (sensor < 30) { status = "Full"; }
-        else if (sensor < 80 ){ status = "Medium"; }
-        else { status = "Empty";}
-        GarbageBin bin =  new GarbageBin(sensor, lat, lon, status, emptied, url);
-        bin.test();
-        db.setBin(bin);
-        db.getBin(1).test();
-        db.close();
+        try {
+            JSONObject test = new JSONObject(jsonResponse);
+            JSONArray array = test.getJSONArray("datastreams");
+            String value = array.getJSONObject(0).getString("current_value");
+            System.out.println(value);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        //TODO more data from cloud and create object
+        GarbageBin bin =  new GarbageBin(1, 2, 3, "asd", "asd", url);
         return bin;
     }
 }

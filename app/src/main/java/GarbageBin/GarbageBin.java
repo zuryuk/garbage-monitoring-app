@@ -14,8 +14,8 @@ public class GarbageBin implements Serializable{
 
     public GarbageBin(int ID, double lat, double lon, String status, String emptied, String ip){
         this.ID = ID;
-        this.lat = lat;
-        this.lon = lon;
+        this.lat = parseLat(lat);
+        this.lon = parseLon(lon);
         this.status = status;
         this.emptied = emptied;
         this.ip = ip;}
@@ -43,37 +43,27 @@ public class GarbageBin implements Serializable{
     }
 
     private double parseLat(double lat){
-        double parsedlat = 0;
-        String latString = Double.toString(lat).replace(".", "");
-        String str = latString;
+        double parsedlat;
+        String str = Double.toString(lat).replace(".", "");
         str = new StringBuilder(str).insert(2, "-").toString();
         String[] split = str.split("-");
         int x = Integer.parseInt(split[1])/60;
-        split[1] = Double.toString(x);
-        str = split[0];
-        System.out.println(str);
-        str = split[1];
-        split[1] = str.replace(".", "");
-        System.out.println(str);
+        split[1] = String.valueOf(x);
         str = split[0] + "." + split[1];
         System.out.println(str);
+        parsedlat = Double.parseDouble(str);
         return parsedlat;
     }
     private double parseLon(double lon){
-        double parsedlat = 0;
-        String lonString = Double.toString(lon).replace(".", "");
-        String str = lonString;
+        double parsedlon;
+        String str = Double.toString(lon).replace(".", "");
         str = new StringBuilder(str).insert(3, "-").toString();
         String[] split = str.split("-");
         int x = Integer.parseInt(split[1])/60;
-        split[1] = Double.toString(x);
-        str = split[0];
-        System.out.println(str);
-        str = split[1];
-        split[1] = str.replace(".", "");
-        System.out.println(str);
+        split[1] = String.valueOf(x);
         str = split[0] + "." + split[1];
         System.out.println(str);
-        return parsedlat;
+        parsedlon = Double.parseDouble(str);
+        return parsedlon;
     }
 }

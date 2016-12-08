@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<GarbageBin> testData(){
         //5610.581771,01012.222001
-        GarbageBin B1 = new GarbageBin(1, 37.414, -122.1, "Full", "1.12.2016", "192.168.0.100");
+        GarbageBin B1 = new GarbageBin(1, 3741.414, 12223.14121, "Full", "1.12.2016", "192.168.0.100");
         GarbageBin B2 = new GarbageBin(2, 5610.581771, 01012.222001, "Empty", "30.11.2016", "192.168.0.101");
 
         ArrayList<GarbageBin> binList = new ArrayList<GarbageBin>();
