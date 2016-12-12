@@ -18,7 +18,7 @@ public class GarbageBin implements Serializable{
         this.lon = parseLon(lon);
         this.status = status;
         this.emptied = emptied;
-        this.ip = ip;}
+        this.ip = ip;} //Deprecated
     //Getters & setters
     public void setID(int ID) {this.ID = ID;}
     public void setLon(double lat){this.lat = lat;}
@@ -50,7 +50,6 @@ public class GarbageBin implements Serializable{
         int x = Integer.parseInt(split[1])/60;
         split[1] = String.valueOf(x);
         str = split[0] + "." + split[1];
-        System.out.println(str);
         parsedlat = Double.parseDouble(str);
         return parsedlat;
     }
@@ -62,7 +61,6 @@ public class GarbageBin implements Serializable{
         int x = Integer.parseInt(split[1])/60;
         split[1] = String.valueOf(x);
         str = split[0] + "." + split[1];
-        System.out.println(str);
         parsedlon = Double.parseDouble(str);
         return parsedlon;
     }

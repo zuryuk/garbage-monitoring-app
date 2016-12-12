@@ -128,6 +128,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng myLoc = new LatLng(56.17, 10.12);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(myLoc));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(12));
+
+        mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+            @Override
+            public void onInfoWindowClick(Marker marker) {
+                Intent intent = new Intent(MapsActivity.this, DetailsActivity.class);
+                String IdMarker = marker.getId().replace("m", "");
+                int id = Integer.parseInt(IdMarker)-1;
+                System.out.println(id);
+                GarbageBin Bin = binList.get(id);
+                intent.putExtra("Bin", Bin);
+                startActivity(intent);
+            }
+        });
     }
 
     private synchronized void buildGoogleApiClient() {
@@ -167,16 +180,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onLocationChanged(Location location) {
 
-        mLastLocation = location;
-
-
-        //Get the current location
-        longitude = location.getLongitude();
-        latitude  = location.getLatitude();
-        latLng = new LatLng(latitude, longitude);
-        origin = latitude + ", " + longitude;
-
-
         //move map camera
         if(doIt.equals("ManyGarbageBins")){
             mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
@@ -186,17 +189,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.moveCamera(CameraUpdateFactory.newLatLng(latLngGarbageBin));
             mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
         }
-
-        //Go to the details of the garbage chosen
-        mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
-            @Override
-            public void onInfoWindowClick(Marker marker) {
-                Intent intent = new Intent(MapsActivity.this, DetailsActivity.class);
-                String IdMarker = marker.getId();
-                System.out.println(IdMarker);
-                startActivity(intent);
-            }
-        });
 
         //stop location updates
         if (mGoogleApiClient != null) {

@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\src\\main\\res\\layout-w820dp-port\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_main.xml",
-        "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\src\\main\\res\\layout-w820dp-port\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_status.xml",
         "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\src\\main\\res\\layout-w820dp-port\\activity_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_main.xml",
+        "source": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\src\\main\\res\\layout-w820dp-port\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\res\\merged\\debug\\layout-w820dp-port-v13\\activity_details.xml",

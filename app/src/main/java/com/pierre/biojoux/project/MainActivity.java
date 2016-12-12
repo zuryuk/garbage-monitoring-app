@@ -1,5 +1,6 @@
 package com.pierre.biojoux.project;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
@@ -10,7 +11,7 @@ import android.widget.Button;
 import java.util.ArrayList;
 
 import GarbageBin.GarbageBin;
-import service.ArduinoConnection;
+import GarbageBin.GarbageHandler;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,18 +19,19 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonViewMap;
     private Button buttonLogOut;
     private ArrayList<GarbageBin> binList = null;
+    private GarbageHandler db = new GarbageHandler(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         binList = testData();
-
+        db.getBin(1).test();
         IntentFilter filter = new IntentFilter();
         filter.addAction("com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT");
         Intent intent = new Intent(this, ArduinoConnection.class);
         startService(intent);
 
-        binList.get(1).getCoord();
+
         buttonCheckStatus = (Button) findViewById(R.id.buttonCheckStatus);
         buttonCheckStatus.setOnClickListener(new View.OnClickListener(){
             @Override
