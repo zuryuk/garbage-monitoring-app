@@ -5,22 +5,22 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="4204892117404"
+    timestamp="4481634563467"
     token="-8264263925349632914"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="501" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="94" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <build
         timestamp="3495658962884"
@@ -37,7 +37,7 @@
             type="DEX" />
     </build>
     <build
-        timestamp="4204892117404"
+        timestamp="4481634563467"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

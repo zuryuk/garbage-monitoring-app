@@ -10,116 +10,145 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db07a23-e78e-4d3d-93b8-387a5cd79a0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/ArduinoConnection.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/57930811671338/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/60932349754437/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/61599606232633/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/63025364960499/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/63585886435150/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/service/ArduinoConnection$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/service/ArduinoConnection$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/service/ArduinoConnection$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/service/ArduinoConnection$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/service/ArduinoConnection$MyBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/service/ArduinoConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/Service/ArduinoConnection$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/Service/ArduinoConnection$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/Service/ArduinoConnection$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/Service/ArduinoConnection$MyBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/Service/ArduinoConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/service/ArduinoConnection$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/Service/ArduinoConnection$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/Service/ArduinoConnection$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/Service/ArduinoConnection$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/Service/ArduinoConnection$MyBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/Service/ArduinoConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/service/ArduinoConnection$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/pierre/biojoux/project/MapsActivity$3$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/pierre/biojoux/project/MapsActivity$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/service/ArduinoConnection$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/service/ArduinoConnection$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/service/ArduinoConnection$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/service/ArduinoConnection$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/service/ArduinoConnection$MyBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/service/ArduinoConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/Service/ArduinoConnection.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/builds/debug/4409316495649/classes.dex" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/.idea/runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/androidTest/java/com/example/zuryuk/get_test/ExampleInstrumentedTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/assets/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/java/com/example/zuryuk/get_test/GarbageBin/GarbageBin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/java/com/example/zuryuk/get_test/GarbageBin/GarbageHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/java/com/example/zuryuk/get_test/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/app/src/test/java/com/example/zuryuk/get_test/ExampleUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/Android.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/bintray.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/custom_rules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/rules.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/AuthFailureError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/Cache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/CacheDispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/ClientError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/DefaultRetryPolicy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/ExecutorDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/Network.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/NetworkDispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/NetworkError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/NetworkResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/NoConnectionError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/ParseError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/RequestQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/Response.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/ResponseDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/RetryPolicy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/ServerError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/TimeoutError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/VolleyError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/VolleyLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/Authenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/BasicNetwork.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/ByteArrayPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/ClearCacheRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/DiskBasedCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/HttpClientStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/HttpHeaderParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/HttpStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/HurlStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/ImageLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/ImageRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/JsonArrayRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/JsonObjectRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/JsonRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/NetworkImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/NoCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/PoolingByteArrayOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/RequestFuture.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/StringRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/main/java/com/android/volley/toolbox/Volley.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/CacheDispatcherTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/NetworkDispatcherTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/RequestQueueIntegrationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/RequestQueueTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/RequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/ResponseDeliveryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockHttpStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockHttpURLConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockNetwork.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/MockResponseDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/ShadowSystemClock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/TestRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/mock/WaitableQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/BasicNetworkTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/ByteArrayPoolTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/CacheTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/DiskBasedCacheTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/HttpClientStackTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/HttpHeaderParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/HurlStackTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/ImageLoaderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/ImageRequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/JsonRequestCharsetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/JsonRequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/NetworkImageViewTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/RequestFutureTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/RequestQueueTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/RequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/ResponseTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/toolbox/StringRequestTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/utils/CacheTestUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/java/com/android/volley/utils/ImmediateResponseDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GET_test/volley-master/src/test/resources/org.robolectric.Config.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/GarbageBin/GarbageBin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/GarbageBin/GarbageBin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MapsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MapsActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MapsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/pierre/biojoux/project/MapsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.6.1/jars/classes.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.6.1/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/GarbageBin/GarbageBin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/GarbageBin/GarbageBin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MapsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MapsActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MapsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/pierre/biojoux/project/MapsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/nv06aPejBqfMvlVvVYvau3bhP+g=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/nv06aPejBqfMvlVvVYvau3bhP+g=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/nv06aPejBqfMvlVvVYvau3bhP+g=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/nv06aPejBqfMvlVvVYvau3bhP+g=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/instant-run.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/GarbageBin/GarbageBin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/GarbageBin/GarbageBin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MapsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MapsActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MapsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/pierre/biojoux/project/MapsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/GarbageBin/GarbageBin.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/GarbageBin/GarbageBin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MapsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MapsActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MapsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/pierre/biojoux/project/MapsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-w820dp-port-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-w820dp-port-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageBin.java" afterPath="$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageBin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MapsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MapsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="garbage-monitoring-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -154,32 +183,32 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="GarbageBin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageBin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="697">
               <caret line="46" column="58" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GarbageHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GarbageHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+            <state relative-caret-position="1445">
+              <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -198,7 +227,7 @@
       <file leaf-file-name="CheckStatus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/CheckStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="408">
               <caret line="33" column="107" selection-start-line="33" selection-start-column="107" selection-end-line="33" selection-end-column="107" />
               <folding />
             </state>
@@ -237,15 +266,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="-22">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1481#1627#0" expanded="true" />
-                <element signature="e#1626#1627#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3350,6 +3377,8 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3368,53 +3397,9 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garbage-monitoring-app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garbage-monitoring-app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garbage-monitoring-app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3762,14 +3747,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3769124" sideWeight="0.51285344" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37553343" sideWeight="0.48714653" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.4974293" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33428165" sideWeight="0.48200515" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.48200515" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25016078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25016078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3900,8 +3885,6 @@
           <caret line="24" column="29" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1481#1627#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3915,13 +3898,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageHandler.java">
@@ -3984,8 +3967,6 @@
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1481#1627#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3999,13 +3980,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageHandler.java">
@@ -4068,8 +4049,6 @@
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1481#1627#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4083,13 +4062,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -4143,13 +4122,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -4169,24 +4148,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_status.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/DetailsActivity.java">
@@ -4198,19 +4176,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/CheckStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="408">
           <caret line="33" column="107" selection-start-line="33" selection-start-column="107" selection-end-line="33" selection-end-column="107" />
           <folding />
         </state>
@@ -4232,14 +4210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageBin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="46" column="58" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MapsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -4250,23 +4220,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1481#1627#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1445">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageHandler.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/GarbageBin/GarbageBin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+        <state relative-caret-position="697">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pierre/biojoux/project/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
