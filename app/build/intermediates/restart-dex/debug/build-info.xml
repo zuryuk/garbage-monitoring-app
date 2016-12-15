@@ -5,39 +5,54 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="4481634563467"
+    timestamp="13417108558933"
     token="-8264263925349632914"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="501" />
+        duration="602" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="722" />
     <task
         name="instant-run-transform"
-        duration="94" />
+        duration="87" />
     <task
         name="verifier"
-        duration="6" />
+        duration="8" />
+
+    <artifact
+        location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="3495658962884"
+        timestamp="12341940523425"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="4015908421921"
+        timestamp="13258360566964"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="13392299308040"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="4481634563467"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="13417108558933"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
 
 </instant-run>

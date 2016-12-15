@@ -1,12 +1,14 @@
 package com.pierre.biojoux.project;
 
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.content.BroadcastReceiver;
 
 import java.util.ArrayList;
 
@@ -20,16 +22,18 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonLogOut;
     private ArrayList<GarbageBin> binList = null;
     private GarbageHandler db = new GarbageHandler(this);
+    IntentFilter filter = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         binList = testData();
-        db.getBin(1).test();
-        IntentFilter filter = new IntentFilter();
+        filter = new IntentFilter();
         filter.addAction("com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT");
         Intent intent = new Intent(this, ArduinoConnection.class);
         startService(intent);
+        registerReceiver(receiver, filter);
 
 
         buttonCheckStatus = (Button) findViewById(R.id.buttonCheckStatus);
@@ -58,6 +62,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onPause() {
+        unregisterReceiver(receiver);
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        registerReceiver(receiver, filter);
+    }
+
     private void checkStatus(){
         Intent intent = new Intent(this, StatusActivity.class);
         intent.putExtra("binList", binList);
@@ -77,12 +93,23 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<GarbageBin> testData(){
         //5610.581771,01012.222001
-        GarbageBin B1 = new GarbageBin(1, 3741.414, 1223.14121, "Full", "1.12.2016", "192.168.0.100");
-        GarbageBin B2 = new GarbageBin(2, 5610.581771, 01012.222001, "Empty", "30.11.2016", "192.168.0.101");
+        GarbageBin B1 = new GarbageBin(1, 5610.60000, 01012.2000, "Empty", "2.1.1970", "N/A");
+        GarbageBin B2 = new GarbageBin(2, 5610.581771, 01012.222001, "Full", "1.1.1970", "N/A");
 
         ArrayList<GarbageBin> binList = new ArrayList<GarbageBin>();
         binList.add(B1);
         binList.add(B2);
+        System.out.println(binList.get(1).getCoord());
         return binList;
     }
+    private final BroadcastReceiver receiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if (action.equals("com.pierre.biojoux.project.BROADCAST_BACKGROUND_SERVICE_RESULT")) {
+                System.out.println("Broadcast received");
+                binList.set(1, db.getBin(1));
+            }
+        }
+    };
 }

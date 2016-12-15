@@ -63,17 +63,23 @@ public class GarbageHandler extends SQLiteOpenHelper {
             db.close();
         }
     }
+    public void test(){
+        System.out.println("Test");
+    }
     public GarbageBin getBin(int id){
         SQLiteDatabase db = this.getReadableDatabase();
         String[] columns = new String[] { ID, LATITUDE, LONGITUDE, EMPTIED, STATUS, IP};
         Cursor c = db.query(TABLE_NAME, columns, null, null, null, null, null);
+        int iID = c.getColumnIndex(ID);
+        System.out.println(c.getColumnCount());
         int iLat = c.getColumnIndex(LATITUDE);
         int iLon = c.getColumnIndex(LONGITUDE);
         int iStatus = c.getColumnIndex(STATUS);
         int iEmptied = c.getColumnIndex(EMPTIED);
         int iIp = c.getColumnIndex(IP);
         c.moveToFirst();
-        GarbageBin Bin = new GarbageBin(id, c.getDouble(iLat), c.getDouble(iLon), c.getString(iStatus), c.getString(iEmptied), c.getString(iIp));
+        c.move(id);
+        GarbageBin Bin = new GarbageBin(c.getInt(iID), c.getDouble(iLat), c.getDouble(iLon), c.getString(iStatus), c.getString(iEmptied), c.getString(iIp));
         c.close();
         db.close();
         return Bin;

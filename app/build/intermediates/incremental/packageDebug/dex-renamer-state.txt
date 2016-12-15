@@ -1,4 +1,4 @@
-#Mon Dec 12 15:00:07 CET 2016
+#Thu Dec 15 18:47:37 CET 2016
 base.0=C\:\\Users\\Zuryuk\\Documents\\GitHub\\garbage-monitoring-app\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_209f722d08709e14c5862262aaaa38d567798083
 renamed.1=classes.dex
 renamed.0=classes2.dex

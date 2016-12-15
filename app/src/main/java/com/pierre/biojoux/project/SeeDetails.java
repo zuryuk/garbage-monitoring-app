@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import GarbageBin.GarbageBin;
-
+import GarbageBin.GarbageHandler;
 import java.util.Date;
 import java.util.Locale;
 
@@ -21,8 +21,7 @@ public class SeeDetails extends Fragment {
 
     private GarbageBin Bin = null;
     private TextView EmptiedView;
-
-
+    GarbageHandler db = null;
     public SeeDetails() {
     }
 
@@ -31,8 +30,11 @@ public class SeeDetails extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_details, container, false);
-        Bin = (GarbageBin) getActivity().getIntent().getExtras().getSerializable("Bin");
-        System.out.println(Bin.getCoord());
+
+        db = new GarbageHandler(getActivity());
+        int i = (int)getActivity().getIntent().getExtras().get("Bin");
+        System.out.println(i);
+        Bin = db.getBin(i);
         ImageView statusImg = (ImageView) v.findViewById(R.id.detailsimg);
         String status = Bin.getStatus();
 
@@ -48,7 +50,7 @@ public class SeeDetails extends Fragment {
         }
 
         TextView detailID = (TextView) v.findViewById(R.id.detailID);
-        detailID.setText(String.format(Locale.ENGLISH, "%d", Bin.getID()));
+        detailID.setText(String.valueOf(Bin.getID()));
 
         EmptiedView = (TextView) v.findViewById(R.id.detailTime);
         EmptiedView.setText(Bin.getEmptied());
@@ -102,5 +104,6 @@ public class SeeDetails extends Fragment {
         System.out.println(dateFormat.format(date));
         EmptiedView.setText(emptied);
         Bin.setEmptied(emptied);
+        db.setBin(Bin);
     }
 }

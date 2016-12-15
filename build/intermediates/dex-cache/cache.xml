@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d16794ecfbacff0ebfabc0abaafe177663d8f6a8">
+        sha1="b2b3c992b5bcc954edfd4d7098236b6487715e44">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2e0838fc2f787fbf23cfcb9754d5b12b1d1bcca5\classes.dex" />
     </item>
     <item
@@ -376,7 +376,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8f1a2c490f96be638a50d8f3a66b194466cd719c">
+        sha1="8470ef1c5799387965f5ed22fdc129d11beecab9">
         <dex dex="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_209f722d08709e14c5862262aaaa38d567798083\classes.dex" />
     </item>
     <item

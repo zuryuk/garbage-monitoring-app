@@ -8,12 +8,13 @@ import android.widget.Button;
 import android.widget.ListView;
 import java.util.ArrayList;
 import GarbageBin.GarbageBin;
+import GarbageBin.GarbageHandler;
 
 public class CheckStatus extends ListFragment {
 
 
     private ArrayList<GarbageBin> binList = null;
-
+    private GarbageHandler db = null;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -25,21 +26,32 @@ public class CheckStatus extends ListFragment {
                 quit();
             }
         });
+        db = new GarbageHandler(getActivity());
+
+        binList = (ArrayList<GarbageBin>) getActivity().getIntent().getExtras().getSerializable("binList");
         return view;
     }
 
     @Override
     public void onActivityCreated(Bundle saveInstanceState){
         super.onActivityCreated(saveInstanceState);
-        binList = (ArrayList<GarbageBin>) getActivity().getIntent().getExtras().getSerializable("binList");
         GarbageAdapter adapter = new GarbageAdapter(getActivity(), R.layout.fragment_status, binList);
         setListAdapter(adapter);
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        binList.set(1, db.getBin(1));
+        GarbageAdapter adapter = new GarbageAdapter(getActivity(), R.layout.fragment_status, binList);
+        setListAdapter(adapter);
+
+    }
+
+    @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         Intent intent = new Intent(getActivity(), DetailsActivity.class);
-        intent.putExtra("Bin", binList.get(position));
+        intent.putExtra("Bin", position);
         startActivity(intent);
         super.onListItemClick(l, v, position, id);
     }

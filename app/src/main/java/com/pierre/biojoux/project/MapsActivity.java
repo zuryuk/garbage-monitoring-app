@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import GarbageBin.GarbageBin;
+import GarbageBin.GarbageHandler;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -72,13 +73,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private String doIt;
     private ArrayList<GarbageBin> binList = null;
     private GarbageBin Bin = null;
+    private GarbageHandler db = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         binList = (ArrayList<GarbageBin>) getIntent().getExtras().getSerializable("binList");
+        db = new GarbageHandler(this);
         Bin = (GarbageBin) getIntent().getExtras().getSerializable("Bin");
+        Bin = binList.get(1);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -134,11 +138,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onInfoWindowClick(Marker marker) {
                 Intent intent = new Intent(MapsActivity.this, DetailsActivity.class);
                 String IdMarker = marker.getId().replace("m", "");
-                int id = Integer.parseInt(IdMarker)-1;
+                int id = Integer.parseInt(IdMarker);
                 System.out.println(id);
-                GarbageBin Bin = binList.get(id);
-                intent.putExtra("Bin", Bin);
+                intent.putExtra("Bin", id);
                 startActivity(intent);
+
             }
         });
     }

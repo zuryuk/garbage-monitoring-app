@@ -165,6 +165,7 @@ public class ArduinoConnection extends Service {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        System.out.println(statusTxt);
         return new GarbageBin(1, lat, lon, statusTxt, "1.1.1970", "192.168.0.100");
 
     }
