@@ -5,22 +5,22 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="13417108558933"
+    timestamp="14023154650180"
     token="-8264263925349632914"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="602" />
+        duration="550" />
     <task
         name="instant-run-dex"
-        duration="722" />
+        duration="991" />
     <task
         name="instant-run-transform"
-        duration="87" />
+        duration="82" />
     <task
         name="verifier"
-        duration="8" />
+        duration="4" />
 
     <artifact
         location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -41,14 +41,14 @@
             type="DEX" />
     </build>
     <build
-        timestamp="13392299308040"
+        timestamp="13758002049894"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="13417108558933"
+        timestamp="14023154650180"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Zuryuk\Documents\GitHub\garbage-monitoring-app\app\build\intermediates\reload-dex\debug\classes.dex"

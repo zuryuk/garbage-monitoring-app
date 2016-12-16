@@ -82,7 +82,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         binList = (ArrayList<GarbageBin>) getIntent().getExtras().getSerializable("binList");
         db = new GarbageHandler(this);
         Bin = (GarbageBin) getIntent().getExtras().getSerializable("Bin");
-        Bin = binList.get(1);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -360,6 +359,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         .icon(BitmapDescriptorFactory.fromResource(R.drawable.greengarbage))
                 );
             }
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(latLngGarbageBin));
         }
     }
 }
